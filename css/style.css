@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+
+.breakpoint-size {
+    width: 375px;
+    background: #FAFAFA;
+}
+
+.header {
+    margin-top: 85px;
+    margin-bottom: 76px;
+}
+
+.top {
+    font-weight: 200;
+    font-size: 24px;
+    letter-spacing: 0.17px;
+    text-align: center;
+    color: #4d4f62;
+}
+
+.bottom {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.17;
+    text-align: center;
+    color: #4d4f62;
+    margin-top: 1px;
+}
+
+.header > p {
+    width: 311px;
+    height: 75px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    opacity: 50%;
+    color: #4d4f62;
+}
+
+.supervisor {
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    margin-left: 32px;
+    margin-bottom: 25px;
+    border-top: 3.55px solid #44d3d2;
+}
+
+.teambuilder {
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    margin-left: 32px;
+    margin-bottom: 25px;
+    border-top: 3.55px solid #EA5454;
+}
+
+.karma {
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    margin-left: 32px;
+    margin-bottom: 25px;
+    border-top: 3.55px solid  #FCAE4A;
+}
+
+.calculator {
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    margin-left: 32px;
+    margin-bottom: 78px;
+    border-top: 3.55px solid #549EF2;
+}
+
+
+.supervisor > h2,
+.teambuilder > h2,
+.karma > h2,
+.calculator > h2 {
+    margin-top: 24px;
+    margin-left: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4d4f62;
+}
+
+.supervisor > p,
+.teambuilder > p,
+.karma > p,
+.calculator > p {
+    margin-top: 1px;
+    margin-left: 29px;
+    margin-right: 28px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    opacity: 0.5;
+    color: #4d4f62;
+}
+
+.icon {
+    margin-top: 33px;
+    margin-left: 226px;
+}
+
