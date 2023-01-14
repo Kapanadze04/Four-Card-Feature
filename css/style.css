@@ -130,3 +130,97 @@ body {
     margin-left: 226px;
 }
 
+
+
+
+/*****************************************************DESKTOP SIZE*****************************************************/
+
+
+@media only screen and (min-width: 1440px) {
+    
+    .breakpoint-size { width: 1440px; }
+
+    .header {
+        margin-top: 80px;
+        margin-bottom: 64px;
+    }
+
+    .top {
+        font-size: 36px;
+        letter-spacing: 0.25px;
+        text-align: center;
+    }
+
+    .bottom {
+        font-size: 36px;
+        letter-spacing: 0.25;
+        margin-top: 0px;
+    }
+
+    .header > p {
+        width: 540px;
+        height: 50px;
+        margin-left: 450px;
+        margin-right: 450px;
+        opacity: 0.5;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+    }
+
+    .supervisor {
+        width: 350px;
+        height: 250px;
+        margin-left: 165px;
+        margin-bottom: 0px;
+        border-top: 4px solid #44d3d2;
+    }
+
+    .teambuilder {
+        width: 350px;
+        height: 250px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        border-top: 4px solid #EA5454;
+    }
+
+    .karma {
+        width: 350px;
+        height: 250px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        border-top: 4px solid  #FCAE4A;
+    }
+
+    .calculator {
+        width: 350px;
+        height: 250px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        border-top: 4px solid #549EF2;
+    }
+
+    .supervisor > h2,
+    .teambuilder > h2,
+    .karma > h2,
+    .calculator > h2 {
+        margin-top: 28px;
+        margin-left: 32px;
+    }
+
+    .supervisor > p,
+    .teambuilder > p,
+    .karma > p,
+    .calculator > p {
+        margin-top: 6px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .icon {
+        margin-top: 40px;
+        margin-left: 254px;
+    }
+}
