@@ -6,16 +6,26 @@
     box-sizing: border-box;
 }
 
+/* Color */
+
+:root {
+    --bgColor: #FAFAFA;
+    --bgColor2: #FFFFFF;
+}
+
+/* Color */
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #FAFAFA;
+    background-color: var(--bgColor);
     display: flex;
     justify-content: center;
 }
 
+
 .breakpoint-size {
     width: 375px;
-    background: #FAFAFA;
+    background-color: var(--bgColor);
 }
 
 .header {
@@ -54,49 +64,28 @@ body {
     color: #4d4f62;
 }
 
-.supervisor {
-    width: 311px;
-    height: 222px;
-    border-radius: 8px;
-    background: #FFFFFF;
-    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    margin-left: 32px;
-    margin-bottom: 25px;
-    border-top: 3.55px solid #44d3d2;
-}
-
-.teambuilder {
-    width: 311px;
-    height: 222px;
-    border-radius: 8px;
-    background: #FFFFFF;
-    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    margin-left: 32px;
-    margin-bottom: 25px;
-    border-top: 3.55px solid #EA5454;
-}
-
-.karma {
-    width: 311px;
-    height: 222px;
-    border-radius: 8px;
-    background: #FFFFFF;
-    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    margin-left: 32px;
-    margin-bottom: 25px;
-    border-top: 3.55px solid  #FCAE4A;
-}
-
+.supervisor,
+.teambuilder,
+.karma,
 .calculator {
+    background: var(--bgColor2);
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+
     width: 311px;
     height: 222px;
     border-radius: 8px;
-    background: #FFFFFF;
-    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+
     margin-left: 32px;
-    margin-bottom: 78px;
-    border-top: 3.55px solid #549EF2;
+    margin-bottom: 25px;
 }
+
+.supervisor { border-top: 3.55px solid #44d3d2; }
+
+.teambuilder { border-top: 3.55px solid #EA5454; }
+
+.karma { border-top: 3.55px solid  #FCAE4A; }
+
+.calculator { border-top: 3.55px solid #549EF2; }
 
 
 .supervisor > h2,
@@ -170,33 +159,33 @@ body {
         align-items: center;
     }
 
-    .supervisor {
+    .supervisor,
+    .teambuilder,
+    .karma,
+    .calculator {
         width: 350px;
         height: 250px;
+    }
+
+    .supervisor {
         margin-left: 165px;
         margin-bottom: 0px;
         border-top: 4px solid #44d3d2;
     }
 
     .teambuilder {
-        width: 350px;
-        height: 250px;
         margin-left: 30px;
         margin-bottom: 30px;
         border-top: 4px solid #EA5454;
     }
 
     .karma {
-        width: 350px;
-        height: 250px;
         margin-left: 30px;
         margin-bottom: 0px;
         border-top: 4px solid  #FCAE4A;
     }
 
     .calculator {
-        width: 350px;
-        height: 250px;
         margin-left: 30px;
         margin-bottom: 0px;
         border-top: 4px solid #549EF2;
