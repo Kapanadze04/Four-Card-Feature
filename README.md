@@ -2,7 +2,7 @@
 
 ## Summary
 
-- "Frontendmentor" challenge. Where we have four cards. Each card includes a title, text and icon. Their layout differs between the mobile and desktop version, which is done with the help of media queries.
+- "Frontendmentor" challenge. Where we have four cards. Each card includes a title, text, and icon. Their layout differs between the mobile and desktop versions, which is done with the help of media queries.
 
 ## Live Server
 
